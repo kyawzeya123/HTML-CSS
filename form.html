@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+
+	<form method="post" action="new.html" enctype="multipart/form-data">
+
+		<fieldset>
+			<legend>Student Registration</legend>
+		
+
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" maxlength="5">
+
+		<br>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email">
+
+		<br>
+
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password">
+
+		<br>
+
+		<label for="phone">Phone</label>
+		<input type="number" name="phone" id="phone">
+
+		<br>
+
+		<label for="year">Year</label>
+		<select name="year" id="year">
+			
+			<option value="First">First Year</option>
+			<option value="Second">Second Year</option>
+			<option value="Third">Third Year</option>
+
+		</select>
+
+		<br>
+
+		<label>Hobby</label>
+		<label for="travel">Travel:</label>
+		<input type="travel" name="travel" id="travel">
+
+		<label for="reading">Reading:</label>
+		<input type="reading" name="reading" id="reading">
+
+		<label for="moving">Moving:</label>
+		<input type="moving" name="moving" id="moving">
+
+		<br>
+
+		<label for="profile">Profile</label>
+		<input type="file" name="profile" id="profile">
+		<br>
+
+		<label for="address">Address</label>
+		<textarea name="address" id="address"></textarea>
+
+		<br>
+
+		<label>Gender</label>
+		<label for="male"></label>
+		Male:<input type="radio" name="gender" id="male">
+		<br>
+		<label for="female"></label>
+		Female:<input type="radio" name="gender" id="female">
+
+		<br>
+
+		<button type="submit">Submit</button>
+
+</fieldset>
+	</form>
+
+</body>
+</html>
